@@ -1,4 +1,6 @@
 # app.py
+import os
+import json
 import faiss
 import numpy as np
 from fastapi import FastAPI, HTTPException
